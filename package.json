@@ -1,0 +1,30 @@
+{
+  "name": "jira-planning-poker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:server": "nodemon server/server.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luksm/jira-planning-poker.git"
+  },
+  "author": "Lucas Machado <git@lucasms.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luksm/jira-planning-poker/issues"
+  },
+  "homepage": "https://github.com/luksm/jira-planning-poker#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "mongoose": "^5.9.13",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
